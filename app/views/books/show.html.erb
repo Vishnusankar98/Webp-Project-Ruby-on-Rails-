@@ -1,0 +1,9 @@
+<h1>Books#show</h1>
+<p>Find me in app/views/books/show.html.erb</p>
+
+<%= link_to 'Remove', @book, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+<h1><%= @book.author %></h1>
+<h4><%= @book.title %></h4>
+<h4><%= @book.publisher %></h4>
+<h4><%= @book.year %></h4>
